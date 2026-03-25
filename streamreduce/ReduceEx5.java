@@ -1,4 +1,4 @@
-// package streamreduce;
+package streamreduce;
 
 import java.util.Arrays;
 import java.util.List;
