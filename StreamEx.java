@@ -85,5 +85,11 @@ public class StreamEx {
         List<String> list13 = Arrays.asList("anuj", "  Nikhil", "mudassar", "rijul","prashant");
         List<Character> lastchar = list13.stream().map(x -> x.charAt(x.length() - 1)).toList();
         lastchar.forEach(System.out::println);
+
+        System.out.println();
+
+            List <Integer> list14=Arrays.asList(12,3,5);
+            List<Integer> add=list14.stream().map(x->x).toList();
+            System.out.println(add);
     }
 }
